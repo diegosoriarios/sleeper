@@ -1,0 +1,24 @@
+# No pip-installable dependencies are required for this app.
+# The GUI uses Tkinter, which is part of the standard Python distribution on most systems.
+# If you get "ModuleNotFoundError: No module named 'tkinter'", install it via your OS package manager:
+
+# Ubuntu/Debian:
+#   sudo apt update && sudo apt install -y python3-tk
+#
+# Fedora/CentOS/RHEL:
+#   sudo dnf install -y python3-tkinter
+#   # or: sudo yum install -y python3-tkinter
+#
+# Arch:
+#   sudo pacman -S tk
+#
+# macOS (Homebrew Python):
+#   brew install python-tk
+#
+# Windows:
+#   Reinstall Python from python.org and ensure "tcl/tk and IDLE" is selected.
+#
+# Optional: packaging into a single executable for end users
+#   pip install pyinstaller
+
+pyinstaller>=6.0
